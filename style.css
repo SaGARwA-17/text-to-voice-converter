@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 100%;
+}
+.header{
+  width: screen;
+  color: #000;
+  background-color: yellow;
+  padding: 20px 0;
+}
+.landing-header{
+  text-align: center;
+  font-size: 3rem;
+  position: relative;
+}
+
+.option-both{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.option-input-voice{
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid #000;
+  padding: 7px 15px;
+}
+.option-input-voice:hover{
+  background-color: #dbdada;
+  border: none;
+}
+
+.textarea-voice{
+  text-align: center;
+}
+
+.textarea-header{
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.textarea-only{
+  width: 700px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.icon-link{
+  width: 17px;
+  position: relative;
+  top: 1px;
+}
+
+.button-standard{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 7px 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: #dbdada;
+  border: none;
+}
+.icon-link-small{
+  width: 15px;
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
+.all-btn-all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media  (max-width: 780px) {
+  .landing-header{
+    font-size: 2.8rem;
+  }
+}
+
+@media  (max-width: 740px) {
+  .landing-header{
+    font-size: 2.5rem;
+  }
+  .textarea-only{
+    width: 600px;
+  }
+}
+
+@media  (max-width: 701px) {
+  .landing-header{
+    font-size: 2.3rem;
+  }
+  .textarea-only{
+    width: 500px;
+  }
+}
+
+@media  (max-width: 620px) {
+  .landing-header{
+    font-size: 2rem;
+  }
+  .textarea-only{
+    width: 450px;
+  }
+}
+
+@media  (max-width: 620px) {
+  .landing-header{
+    font-size: 2rem;
+  }
+  .textarea-only{
+    width: 450px;
+  }
+}
+
+@media  (max-width: 508px) {
+  .landing-header{
+    font-size: 1.7rem;
+  }
+  .textarea-only{
+    width: 400px;
+  }
+}
+@media  (max-width: 445px) {
+  .landing-header{
+    font-size: 1.4rem;
+  }
+  .textarea-only{
+    width: 320px;
+  }
+  .button-standard{
+    padding: 6px 13px;
+    font-size: 17px;
+  }
+}
+@media  (max-width: 413px) {
+  .landing-header{
+    font-size: 1.2rem;
+  }
+  .textarea-only{
+    width: 300px;
+  }
+  .button-standard{
+    padding: 5px 12px;
+    font-size: 15px;
+  }
+}
+@media  (max-width: 380px) {
+  .landing-header{
+    font-size: 1rem;
+  }
+  .textarea-only{
+    width: 300px;
+  }
+  .option-both{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+
+
